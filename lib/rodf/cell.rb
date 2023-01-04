@@ -103,6 +103,7 @@ module RODF
 
       if !empty?(value) || !opts[:formula].nil? || type == :string
         attrs['office:value-type'] = type
+        attrs['calcext:value-type'] = type
       end
 
       if type != :string && !empty?(value)
