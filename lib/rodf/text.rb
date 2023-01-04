@@ -13,6 +13,7 @@ module RODF
         'xmlns:style' => "urn:oasis:names:tc:opendocument:xmlns:style:1.0",
         'xmlns:fo' => "urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0",
         'xmlns:xlink' => "http://www.w3.org/1999/xlink",
+        'xmlns:calcext' => 'urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0'
       }
 
       b.tag! 'office:document-content', attrs do |xml|
